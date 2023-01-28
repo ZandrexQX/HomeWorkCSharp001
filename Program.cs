@@ -14,6 +14,7 @@ else
 
 Console.ReadLine();
 
+
 Console.Clear();
 Console.WriteLine("Task 4");
 Console.WriteLine("------");
@@ -33,6 +34,7 @@ Console.WriteLine($"Max = {max}");
 
 Console.ReadLine();
 
+
 Console.Clear();
 Console.WriteLine("Task 6");
 Console.WriteLine("------");
@@ -46,4 +48,24 @@ else
 
 Console.ReadLine();
 
+
 Console.Clear();
+Console.WriteLine("Task 8");
+Console.WriteLine("------");
+
+Console.Write("Enter number:");
+int num7 = Convert.ToInt32(Console.ReadLine());
+Console.Write($"{num7} -> ");
+if (num7%2==1) num7 -= 1;
+
+for (int i = 2; i <= num7; i += 2)
+{
+    Console.Write($"{i} ");
+}
+Console.ReadLine();
+Console.Clear();
+
+/* 
+    Ненужные задачи можно закоментировать, для работы 
+    какой-нибудь одной. Все блоки самодостаточны.
+*/
