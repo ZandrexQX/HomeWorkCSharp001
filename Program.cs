@@ -13,26 +13,37 @@ else
     Console.WriteLine("The numbers are equal");
 
 Console.ReadLine();
-Console.Clear();
 
+Console.Clear();
 Console.WriteLine("Task 4");
 Console.WriteLine("------");
 
 Console.Write("Enter first number:");
-num1 = Convert.ToInt32(Console.ReadLine());
-Console.Write("Enter second number:");
-num2 = Convert.ToInt32(Console.ReadLine());
-Console.Write("Enter third number:");
 int num3 = Convert.ToInt32(Console.ReadLine());
+Console.Write("Enter second number:");
+int num4 = Convert.ToInt32(Console.ReadLine());
+Console.Write("Enter third number:");
+int num5 = Convert.ToInt32(Console.ReadLine());
 int max = 0;
 
-if (num1>max) max = num1;
-if (num2>max) max = num2;
 if (num3>max) max = num3;
+if (num4>max) max = num4;
+if (num5>max) max = num5;
 Console.WriteLine($"Max = {max}");
 
 Console.ReadLine();
-Console.Clear();
 
+Console.Clear();
 Console.WriteLine("Task 6");
 Console.WriteLine("------");
+
+Console.Write("Enter number:");
+int num6 = Convert.ToInt32(Console.ReadLine());
+
+if (num6%2==0) Console.WriteLine($"{num6} even number");
+else
+    Console.WriteLine($"{num6} odd number");
+
+Console.ReadLine();
+
+Console.Clear();
