@@ -1,5 +1,5 @@
 ﻿Console.Clear();
-Console.WriteLine("Task 1");
+Console.WriteLine("Task 2");
 Console.WriteLine("------");
 
 Console.Write("Enter first number:");
